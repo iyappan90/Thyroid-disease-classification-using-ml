@@ -1,0 +1,3 @@
+@app.route("/")
+def about():
+      return render_template('home.html')
